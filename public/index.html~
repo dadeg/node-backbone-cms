@@ -1,0 +1,328 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Lewis Carnegie</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link rel="stylesheet" type="text/css" href="lib/pslide/jquery.pageslide.css" />
+    <link rel="stylesheet" type="text/css" href="css/omq.css" />
+    <link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+    
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
+    
+<style>
+  	
+    #panel-slide { display: none; }
+
+</style>
+
+<!--
+    
+    <link href="css/bootstrap.css" rel="stylesheet">
+-->
+    
+    <link href="css/bs/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bs/css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="epiceditor/docs/css/prettify.css">
+
+    <!--  HTML5 elements support for IE6-8  -->
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+	<!--script type="text/javascript" src="socket.io/socket.io.js"></script-->
+
+</head>
+
+<body>
+<div id="top-navbar" class="navbar navbar-fixed-top" style="display: none;">
+      <div class="navbar-inner">
+        <div class="container brnd">
+          <button data-target=".nav-collapse" data-toggle="collapse" class=" btn-navbar collapsed" type="button">
+            <i class="icon-plus-sign"></i>
+          </button>
+          <a href="#" class="brand">
+            <img src="css/img/logo.svg" alt="Lewis Carnegie logo"/>
+          </a>
+          
+          <div class="nav-collapse collapse" style="height: 0px;">
+            <ul class="nav">
+              <li> <a data-target=".nav-collapse" data-toggle="collapse" href="#">Home</a></li>
+              <li> <a data-target=".nav-collapse" data-toggle="collapse" href="#portfolio/environmental/1">Environmental</a></li>
+              <li> <a data-target=".nav-collapse" data-toggle="collapse" href="#portfolio/identity/1">Identity</a></li>
+              <li> <a data-target=".nav-collapse" data-toggle="collapse" href="#portfolio/development/1">Development</a></li>
+              <li> <a data-target=".nav-collapse" data-toggle="collapse" href="#portfolio/print/1">Print</a></li>
+              <li> <a data-target=".nav-collapse" data-toggle="collapse" href="#portfolio/packaging/1">Packaging</a></li>
+              <li> <a data-target=".nav-collapse" data-toggle="collapse" href="#portfolio/illustration/1">Illustration</a></li>
+              <li> <a data-target=".nav-collapse" data-toggle="collapse" href="#portfolio/outreach/1">Outreach</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+        
+        <div class="container pg">
+        </div>
+        
+      </div>
+    </div>
+    
+<div id="scontainer" class="scontainer">
+<div id="mcontainer" class="container-fluid">
+  
+  
+    
+   
+  <div id="main-row" class="row-fluid">
+      
+        <div id="panel-slid" class="span3">
+            
+    <ul class="corner-nav">
+      <li> <a href="#yes">YES</a></li>
+      
+    </ul> 
+    
+    <div id='brand-logo' class="">
+      <a href="#"><img src="css/img/logo.svg" alt="Lewis Carnegie logo"/></a>
+    </div>
+    
+          
+          <div class="primary-nav">
+            <ul>
+              <li> <a href="#portfolio/environmental/1">Environmental</a></li>
+              <li> <a href="#portfolio/identity/1">Identity</a></li>
+              <li> <a href="#portfolio/development/1">Development</a></li>
+              <li> <a href="#portfolio/print/1">Print</a></li>
+              <li> <a href="#portfolio/packaging/1">Packaging</a></li>
+              <li> <a href="#portfolio/illustration/1">Illustration</a></li>
+              <li> <a href="#portfolio/outreach/1">Outreach</a></li>
+            </ul>
+          </div>
+            
+            <div id="contact-info">
+            <address class="email-phone strip">
+              <a href="mailto:#">hello@lewiscarnegie.com</a><br>
+              512 708 1128
+            </address>
+            
+            <ul class="social-nav strip">
+              <li> <a href="#">Twitter</a></li>
+              <li> <a href="#">Facebook</a></li>
+              <li> <a href="#">Linked in</a></li>
+              <li> <a href="#">Blog</a></li>
+            </ul>
+            
+            <address class="physical-address strip">
+              1312 B East Cesar Chavez<br>
+              Austin, Texas 78702<br>
+            </address>
+            
+            <p class="copyright strip">© 2013 Lewis Carnegie</p>
+            </div>
+                      
+        </div>
+        
+        <div id="content-container" class="span9">
+        
+          <div id="sub-nav-container" class="">
+          </div>
+    
+        <div id="content">
+    
+    
+    
+    
+        </div>
+        </div>
+        
+         <h6 id='ie_test' style="display: none;"></h6>
+      </div>
+      
+      
+
+</div>
+
+
+
+<div id="mobile-footer" style="display: none;">
+    
+  <div id="contact-info">
+    <p class="copyright strip">© 2013 Lewis Carnegie</p>
+    
+    <ul id="about-nav strip">
+      <li> <a href="#">About</a></li>
+      <li> <a href="#">Blog</a></li>
+      <li> <a href="#">Contact</a></li>
+    </ul> 
+  
+    <address class="email-phone strip">
+      <a href="mailto:#">hello@lewiscarnegie.com</a><br>
+      512 708 1128
+    </address>
+  
+    <ul class="social-nav strip">
+      <li> <a href="#">Twitter</a></li>
+      <li> <a href="#">Facebook</a></li>
+      <li> <a href="#">Linked in</a></li>
+    </ul>
+    
+    <address class="physical-address strip">
+      1312 B East Cesar Chavez<br>
+      Austin, Texas 78702<br>
+    </address>
+    
+    
+  </div>
+
+</div>
+
+
+</div>
+
+<!-- 
+/container 
+-->
+
+
+<!--=================================-->
+<!-- LOAD JS  -->
+<!--=================================-->
+
+
+
+<script src="lib/jquery-1.8.2.min.js"></script>
+<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+<script src="lib/underscore-min.js"></script>
+<script src="lib/backbone-min.js"></script>
+<script src="lib/bootstrap.min.js"></script>
+
+<script src="js/utils.js"></script>
+<script src="js/models/models.js"></script>
+<script src="js/views/paginator.js"></script>
+<script src="js/views/header.js"></script>
+<script src="js/views/home.js"></script>
+<script src="js/views/pitemlist.js"></script>
+<script src="js/views/placeholder.js"></script>
+<script src="js/views/pitemdetails.js"></script>
+<script src="js/main.js"></script>
+
+
+<!-- mediaQuery Scripts -->
+<script id="responder" type="text/javascript" src="js/onmediaquery.js"></script>
+<script language='javascript'>
+var ie, t, n;
+
+queries = [
+	{
+		context: 'mobile',
+		match: function() {
+			ie.innerHTML = 'mobile';
+//			console.log('mobile callback woohoo!');
+		},
+		unmatch: function(){
+//			console.log('mobile callback unmatched!');
+		}
+	},
+	{
+		context: 'skinny',
+		match: function() {
+			// console.log('skinny callback woohoo!');
+			ie.innerHTML = 'tablet';
+			
+		},
+		unmatch: function(){
+			// console.log('skinny callback unmatched!');
+		}
+	},
+	{
+		context: ['mobile', 'skinny'],
+		call_for_each_context: false,
+		match: function() {
+			// console.log('a callback which spans multiple breakpoints, skinny and mobile!');
+			$("#panel-slid").hide();
+			$("#sub-nav-container").hide();
+			$("#content-container").removeClass();
+			$("#content-container").addClass('span12 slim');
+			$("#top-navbar").show();
+			$("#scontainer").addClass('padded');
+			$("#inner-carousel").removeClass().addClass('no-slide');
+			$("#mobile-footer").show();
+			$("#carousel-nav").hide();
+			// setting 'call_for_each_context' to false means this callback will only fire once across this range of breakpoints
+		},
+		unmatch: function() {
+//			console.log('leaving small context!');
+		}
+	},
+	{
+		context: 'desktop',
+		match: function() {
+		//	console.log('desktop callback woohoo!');
+			ie.innerHTML = 'full-size';
+			$("#panel-slid").show();
+			$("#sub-nav-container").show();
+			$("#content-container").removeClass();
+			$("#content-container").addClass('span9');
+			$("#top-navbar").hide();
+			$("#scontainer").removeClass();
+			$("#mobile-footer").hide();
+			$("#carousel-nav").show();
+						
+			
+		},
+		unmatch: function(){
+	//		console.log('desktop callback unmatched!');
+		}
+	}
+];
+
+window.onload = function() {
+ 	ie = document.getElementById('ie_test');
+	MQ.init(queries);
+	
+	var my_query = MQ.addQuery({
+		context: ['skinny'],
+		match: function() { 
+	//		console.log( 'second skinny callback!' )
+		}
+	});
+	
+	var callbacklen = MQ.callbacks.length;
+	//Remove a media query test by reference
+/*
+	MQ.removeQuery( my_query );
+	if(callbacklen - MQ.callbacks.length === 1){
+		console.log("RemoveQuery test success");
+	}else{
+		console.log("RemoveQuery test failture");
+	}
+*/
+}
+
+/*
+$(".container.brnd").mouseenter(function() {
+  $(this).animate({
+    backgroundColor: "#7fa4b5"
+  }, 300);
+    
+    console.log(this);
+});
+
+$(".container.brnd").mouseleave(function() {
+  $(this).animate({
+    backgroundColor: "#FFFFFF"
+  }, 600);
+});
+*/
+
+//console.log($(".container.brnd"));
+</script> 
+<!-- End mediaQuery scripts -->
+
+</body>
+</html>

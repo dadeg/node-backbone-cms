@@ -1,0 +1,7 @@
+
+<!-- saved from url=(0047)http://54.225.119.55/9/tpl/PlaceholderView.html -->
+<html debug="true"><div id="FirebugChannel" style="display: none;"></div><script src="chrome-extension://bmagokdooijbeehmkpknfglimnifench/firebug-lite.js" id="FirebugLite" firebugignore="true" extension="Chrome"></script><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body><p class="smaller-copy">
+    Section Placeholder <br>
+    (optionally display the first portfolio item)
+    </p>
+<iframe src="./PlaceholderView_files/PlaceholderView.html" frameborder="0" id="FirebugUI" style="border: 0px; visibility: visible; z-index: 2147483647; position: fixed; width: 100%; left: 0px; bottom: 0px; height: 300px; display: block;"></iframe></body><script src="chrome-extension://bmagokdooijbeehmkpknfglimnifench/googleChrome.js"></script></html>

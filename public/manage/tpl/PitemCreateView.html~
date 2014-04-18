@@ -1,0 +1,118 @@
+<div class="alert alert-success" style="display: none">
+            <b>Success!</b> Portfolio item saved
+        </div>
+        
+<div class="row">
+    <form method="post" class="form-horizontal span6">
+      asdf
+      <fieldset>
+                <div>
+
+        <!--div class="control-group" style="display:none;">
+            <label for="id" class="control-label">Id:</label>
+
+            <div class="controls">
+                <input id="pitemId" name="id" type="text" value="<%= _id === null ? '' : _id %>"
+                       disabled/>
+            </div>
+        </div-->
+
+        <div class="control-group">
+            <label for="title" class="control-label">Title:</label>
+
+            <div class="controls">
+                <input type="text" id="name" name="title" value="<%= title %>"/>
+                <span class="help-inline"> </span>
+            </div>
+        </div>
+        
+        <div class="control-group">
+            <label for="section" class="control-label">Section:</label>
+
+            <div class="controls">
+                <input type="text" id="section" name="section" value="<%= section %>"/>
+                <span class="help-inline"> </span>
+            </div>
+        </div>
+        
+        
+        <div class="control-group">
+            <label for="weight" class="control-label">Weight:</label>
+
+            <div class="controls weight">
+                <input type="text"  id="weight" name="weight" value="<%= (typeof weight === 'undefined' || typeof weight === 'object') ? '' : weight %>"/> 
+                <div class="help-inline">Sort this item by number  (-50 to 50) </div>
+            </div>
+        </div>
+                          
+        <div class="control-group">
+          <label for="description" class="control-label">Description:</label>
+
+          <div class="controls">
+            <textarea id="description" name="description" style="width: 100%;" rows="4"><%= description%>
+            </textarea>
+          </div>
+        </div>
+        
+        <div class="control-group">
+            <label for="brief" class="control-label">Brief:</label>
+
+            <div class="controls">
+              <textarea id="brief" name="brief" style="width: 100%;" rows="4"><%= brief %>
+              </textarea>
+                <span class="help-inline"></span>
+            </div>
+        </div>
+        
+        <div class="control-group">
+            <label for="services" class="control-label">Services:</label>
+
+            <div class="controls">
+                <input type="text" id="services" name="services" value="<%= services %>"/>
+            </div>
+        </div>
+        
+        
+        
+        <div class="control-group">
+            <label for="team" class="control-label">Team:</label>
+
+            <div class="controls">
+                <input type="text" id="team" name="team" value="<%= team %>"/>
+            </div>
+        </div>
+        
+        </div>
+        
+        
+        <div class="control-group">
+            <label for="services" class="control-label">Images:</label>
+
+            <div class="controls">
+                <input data-type="application/json" type="text" id="images" name="images" value="<%= images %>"/>
+            </div>
+        </div>
+
+        
+        </fieldset>
+        
+        <div class="form-buttons">
+          <a href="#" class="btn save">Save</a>
+          <a href="#" class="btn delete">Delete</a>
+        </div>
+        
+    </form>
+    
+    
+    <div class="span3">
+
+      <div class="images-list">  
+        <% _.each(images, function (image) {  %>
+          <div class="item"><img height="auto" width="300"  src="<%= 'imgs/'+ image %>" /></div>
+        <% }); %>
+      </div>
+
+  </div>
+          
+</div>
+

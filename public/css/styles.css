@@ -1,0 +1,484 @@
+#ie_test {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 99999;
+}
+
+body {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+a {
+  color: #A6A8A9;
+}
+
+a:hover {
+    color: #55686A;
+    text-decoration: none;
+}
+
+.home-section .large-copy {
+    font-size: 22pt;
+    margin-bottom: 20pt;
+    line-height: 32pt;
+}
+#scontainer {
+  padding-left: 0pt;
+  padding-bottom: 0pt;
+  padding-right: 0pt;
+  padding-top: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#scontainer.padded{
+  padding-top: 80px;
+}
+
+#content-container.slim {
+  margin-left: 0;
+}
+
+#top-navbar .container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#top-navbar {
+  position: fixed;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#top-navbar ul.nav {
+  padding-left: 5px;
+}
+
+#top-navbar ul.nav a {
+  padding: 0;
+  line-height: 24px;
+  font-weight: normal;
+  font-size: 18px;
+  font-style: normal;
+  color: #A6A8A9;
+  text-shadow: none;
+}
+
+
+
+.navbar-fixed-top .navbar-inner {
+ padding: 0px;
+}
+
+#top-navbar .brand img {
+  width: 130px;
+  height: auto;
+}
+
+
+.home-section .smaller-copy {
+    font-size: 12pt;
+    line-height: 18pt;
+}
+
+#brand-logo {
+  margin-bottom: 32pt;
+  margin-top: 32pt;
+  height: 25pt;
+}
+
+#brand-logo img {
+  width: 210px;
+}
+
+.home-section {
+  
+    padding: 0;
+    text-align : left;
+    padding-top: 69px;
+}
+
+.primary-nav {
+  width: 300px;
+}
+
+/*  Custom fonts
+*/
+@font-face {
+  font-family: 'FrankGothic';
+  src: url('../assets/typefaces/fgoth/ITCFranklinGothicStd-Book.eot');
+  src: url('../assets/typefaces/fgoth/ITCFranklinGothicStd-Book.eot?#iefix') format('embedded-opentype'), url('../assets/typefaces/fgoth/ITCFranklinGothicStd-Book.woff') format('woff'), url('../assets/typefaces/fgoth/ITCFranklinGothicStd-Book.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'FrankGothic';
+  src: url('../assets/typefaces/fgoth/ITCFranklinGothicStd-Demi.eot');
+  src: url('../assets/typefaces/fgoth/ITCFranklinGothicStd-Demi.eot?#iefix') format('embedded-opentype'), url('../assets/typefaces/fgoth/ITCFranklinGothicStd-Demi.woff') format('woff'), url('../assets/typefaces/fgoth/ITCFranklinGothicStd-Demi.ttf') format('truetype');
+  font-weight: bold;
+  font-style: bold;
+}
+
+body {
+  color: #A6A8A9;
+  font-family: "FrankGothic", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 10pt;
+  background-color: #ffffff;
+}
+
+.details .strip {
+  margin-bottom: 20pt;
+}
+
+.details .more-link {
+  margin-top: 10pt;
+}
+
+.details h2 {
+  font-size: 10pt;
+  line-height: 20px;
+  margin: 0;
+}
+
+.details p b, .details h2 {
+  color: #55686A;
+}
+
+.navbar .brand {
+  padding-bottom: 5px;
+  padding-top: 10px;
+}
+
+.pgr h2 {
+  background-color: white;
+  font-size: 10pt;
+  line-height: 20px;
+  margin: 0;
+  color: #55686A;
+}
+
+.pgr .nxt {
+text-align: right;
+}
+
+.pgr div a {
+  padding-left: 0px;
+  padding-bottom: 6px;
+  padding-right: 0px;
+  padding-top: 10px;
+  float: left;
+  width: 10%;
+}
+
+
+
+.pgr .current-item {
+  text-align: left;
+  margin-right: auto;
+  margin-left: auto;
+  width: 80%;
+  float: left;
+}
+
+.pgr .current-item h2 {
+  padding-left: 0px;
+  padding-bottom: 6px;
+  padding-right: 0px;
+  padding-top: 10px;
+}
+
+#contact-info {
+  
+ padding-top: 20pt;
+}
+
+#contact-info .strip {
+ padding-bottom: 0pt;
+ padding-top: 30pt;
+ margin: 0;
+}
+
+.social-nav li {
+    list-style: none outside none;
+    display: block;
+    text-align: left;
+}
+
+
+
+#second-row {
+ height: 20pt;
+ padding-bottom: 40pt;
+ padding-top: 20pt;
+}
+
+#main-row #content .details {
+}
+
+
+.top-row {
+  margin-bottom: 10pt;
+
+}
+
+.primary-nav ul, .social-nav {
+  
+  margin: 0;
+}
+
+.primary-nav li {
+    font-size: 22pt;
+    line-height: 32pt;
+    margin-right: 10px;
+    list-style: none outside none;
+    display: block;
+    text-align: left;
+}
+
+.primary-nav li a {
+    color: #CCC;
+}
+
+.primary-nav li a:hover {
+    color: #A6A8A9;
+}
+
+#side-nav .top-nav {
+
+}
+
+.item .item-image {
+  margin-bottom: 20px;
+}
+
+.corner-nav {
+  
+  height: 80px;
+  margin: 0;
+  display: block;
+  width: 100%;
+}
+
+.corner-nav li {
+    list-style: none outside none;
+    text-align: left;
+    line-height: 20px;
+}
+
+.top-nav ul {
+  margin: 0;
+  display: block;
+  width: 100%;
+}
+
+.top-nav li {
+      list-style: none outside none;
+    line-height: 20px;
+}
+
+#top-navbar .pg {
+  border-top: 1px solid #f3f3f3;
+}
+
+#top-navbar .pgr {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+
+#sub-nav-container .active a{
+color: #55686A;
+font-weight: bold;
+}
+
+#sub-nav-container {
+  min-height: 110px;
+  margin-bottom: 20px;
+}
+
+#sub-nav-container ul {
+  list-style-type: none;
+}
+
+#sub-nav-container li {
+  line-height: 20px   ;
+}
+
+a.plain:link {
+    color: #333;
+    text-decoration: none;
+}
+
+a.plain:active {
+    color: #333;
+    text-decoration: none;
+}
+
+a.plain:visited {
+    color: #333;
+    text-decoration: none;
+}
+
+a.plain:hover {
+    color: #55686A;
+    text-decoration: none;
+}
+
+.status-bar {
+    height: 60px;
+}
+
+.about-icon {
+    float: left;
+    margin-right: 12px;
+}
+
+.footer {
+    margin-top: 30px;
+    padding-top: 50px;
+    border-top: solid 1px #ddd;
+}
+
+.footer > p {
+    padding-top: 4px !important;
+    padding-bottom: 4px !important;
+}
+
+h5 {
+    width: 100%;
+    white-space: nowrap;
+    margin-bottom: 4px;
+}
+
+.thumbnail {
+    min-width: 260px;
+}
+
+.thumbnails li {
+    margin-left: 0px !important;
+    margin-right: 20px !important;
+}
+
+legend {
+}
+
+.item-images img {
+  width: 100%
+}
+
+#carousel-nav{
+  margin-bottom: 20px;
+}
+
+.carousel-inner img {
+  width: 100%
+}
+
+#inner-carousel .item {
+  margin-bottom: 10px;
+}
+
+#imgCarousel {
+  margin-bottom: 10px;
+}
+
+.no-slide .item {
+  margin-bottom: 10px;
+}
+
+
+
+.btn-navbar {
+  display: none;
+}
+
+.navbar .btn-navbar {
+  border: 0;
+  background-color: transparent;
+  background-image: none;
+  text-shadow: none;
+  color: #DDD;
+  margin-right: -7px;
+}
+
+.navbar .btn-navbar i {
+  background-image: none;
+}
+
+#top-navbar i {
+  background-image: none;
+  color: #DDD;
+}
+
+#top-navbar .btn-navbar:hover i {
+  background-image: none;
+ color: #7fa4b5;
+}
+
+#top-navbar a:hover i {
+  background-image: none;
+ color: #7fa4b5;
+}
+
+#top-navbar .nav-collapse .nav li a:hover {
+  background-color: transparent;
+   color: #777;
+}
+
+#top-navbar .nav-collapse .nav li a:focus {
+  background-color: #FFF;
+   color: #55686A;
+}
+
+.navbar .btn-navbar:hover {
+  background-color: transparent;
+  color: #55686A;
+}
+
+
+.navbar-inner {
+    background-color: #FFF;
+    background-image: none;
+    border: 0;
+    }
+    
+#mcontainer {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#mobile-footer {
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #f2f2f2;
+  padding-bottom: 60px;
+  padding-top: 20px;
+
+}
+
+#mobile-footer #contact-info, #mobile-footer #contact-info a {
+  color: #BBB;
+}
+
+#mobile-footer #contact-info {
+  padding: 0;
+}
+
+#mobile-footer #contact-info .copyright.strip {
+    margin: 0;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+
+#mobile-footer li {
+    list-style: none outside none;
+    display: block;
+    text-align: left;
+}
+
+#mobile-footer ul {
+    margin: 0;
+}

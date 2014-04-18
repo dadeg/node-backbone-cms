@@ -1,0 +1,43 @@
+<div class="row-fluid">
+
+  <section class="span4 details">
+    <h2 class="title"><%= title %></h2>
+    <p class="description strip">
+      <%= description %> <br>
+      <a class="more-link" href="#">Read More</a>
+    </p>
+    <p class="brief strip">
+      <b>Brief </b><br>
+      <%= brief %>
+    </p>
+    <p class="services strip">
+      <b>Services</b><br>
+      <%= services %>
+    </p> 
+    <p class="team strip">
+      <b>Team </b><br>
+      <%= team %>
+    </p>  
+  </section>
+  
+  <section class="span8 image-section">
+    <div id="imgCarousel" class="carousel slide">
+    <!-- Carousel nav -->
+    <% if (images.length>1) {  %>
+    <a class="carousel-control-prev" href="#imgCarousel" data-slide="prev">&lsaquo; prev</a> / 
+    <a class="carousel-control-next" href="#imgCarousel" data-slide="next">next &rsaquo;</a>
+     <% }; %>
+     <div class="carousel-inner">
+    
+    <% _.each(images, function (image) {  %>
+      <div class="item"><img  src="<%=  image %>" /></div>
+    <% }); %>
+    </div>
+    
+    </div>
+<!--   (former) SINGLE IMAGE TAG
+ <img id="picture" src="<%= images === null ? 'imgs/generic.jpg' : 'imgs/' + images[0] %>"/> 
+-->
+  </section>
+
+</div>

@@ -1,0 +1,27 @@
+<article>
+
+  <section class="span4 details">
+    <h2 class="title"><%= title %></h2>
+    <p class="description strip">
+      <%= description %> <br>
+      <a class="more-link" href="#">Read More</a>
+    </p>
+    <p class="brief strip">
+      <b>Brief </b><br>
+      <%= brief %>
+    </p>
+    <p class="services strip">
+      <b>Services</b><br>
+      <%= services %>
+    </p> 
+    <p class="team strip">
+      <b>Team </b><br>
+      <%= team %>
+    </p>  
+  </section>
+  
+  <section class="span8 image-section">
+    <img id="picture" src="<%= images === null ? 'imgs/generic.jpg' : 'imgs/' + images[0] %>"/>
+  </section>
+
+</article>
